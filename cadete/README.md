@@ -36,7 +36,8 @@ Arquivos de áudio a serem convertidos.
 * Abra um terminal e digite:
 
 ```sh
-$ cd \[endereço_da_pasta\] # Se não quiser digitar pressione Ctrl+Shift+V ou Shift+Insert para colar o endereço da pasta que contém os arquivos
+$ cd \[endereço_da_pasta\] \
+# Se não quiser digitar pressione Ctrl+Shift+V ou Shift+Insert para colar o endereço da pasta que contém os arquivos
 ```
 
 * Como exemplo converterei arquivos *.wav para *.mp3
