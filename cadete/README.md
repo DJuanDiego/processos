@@ -40,18 +40,18 @@ $ cd \[endereço_da_pasta\] \
 # Se não quiser digitar pressione Ctrl+Shift+V ou Shift+Insert para colar o endereço da pasta que contém os arquivos
 ```
 
-* Como exemplo converterei arquivos *.wav para *.mp3
+* Como exemplo converterei arquivos *.ogg para *.mp3
 
 ```sh
-$ for i in *.wav; do ffmpeg -i "$i" -f mp3 "${i%.*}.mp3"; done
+$ for i in *.ogg; do ffmpeg -i "$i" -f mp3 "${i%.*}.mp3"; done
 ```
 
 * Se tudo correu bem seus arquivos foram convertidos;
 
-* Removendo os arquivos *.wav (desnecessários):
+* Removendo os arquivos *.ogg (desnecessários):
 
 ```sh
-$ rm *.wav
+$ rm *.ogg
 ```
 
 
