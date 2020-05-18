@@ -43,7 +43,7 @@ $ cd \[endereço_da_pasta\] \
 * Como exemplo converterei arquivos *.wav para *.mp3
 
 ```sh
-$ for i in *.wav; do ffmpeg -i "$i" -f mp3 "${i%}.mp3"; done
+$ for i in *.wav; do ffmpeg -i "$i" -f mp3 "${i%.*}.mp3"; done
 ```
 
 * Se tudo correu bem seus arquivos foram convertidos;
