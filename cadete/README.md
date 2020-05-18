@@ -10,11 +10,11 @@ Qualquer versão do sistema operacional com o programa/pacote ffmpeg instalado.
 ## Instalação do FFmpeg (se necessário)
 
 * Debian e derivados:
-``` $ sudo apt install ffmpeg
+```$ sudo apt install ffmpeg
 ```
 
 * Arch e derivados
-``` $ sudo pacman -S ffmpeg
+```$ sudo pacman -S ffmpeg
 ```
 
 * MacOS e outras distribuições consulte [https://ffmpeg.org/download.html].
@@ -33,12 +33,12 @@ Arquivos de áudio a serem convertidos.
 
 * Abra um terminal e digite:
 
-``` $ cd \[endereço_da_pasta\] # Se não quiser digitar pressione Ctrl+Shift+V ou Shift+Insert para colar o endereço da pasta que contém os arquivos
+```$ cd \[endereço_da_pasta\] # Se não quiser digitar pressione Ctrl+Shift+V ou Shift+Insert para colar o endereço da pasta que contém os arquivos
 ```
 
 * Como exemplo converterei arquivos *.wav para *.mp3
 
-``` $ for i in *.wav; do ffmpeg -i "$i" -f mp3 "${i%}.mp3"; done
+```$ for i in *.wav; do ffmpeg -i "$i" -f mp3 "${i%}.mp3"; done
 ```
 
 * Se tudo correu bem seus arquivos foram convertidos;
@@ -47,5 +47,5 @@ Arquivos de áudio a serem convertidos.
 
 Existem outras opções de conversão de arquivos utilizando o ffmpeg. Você pode utilizar o site [https://ffmpeg.org/documentation.html], em inglês, ou usar o manual direto do terminal:
 
-``` $ man ffmpeg
+```$ man ffmpeg
 ```
