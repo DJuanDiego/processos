@@ -19,7 +19,7 @@ $ sudo apt install ffmpeg
 $ sudo pacman -S ffmpeg
 ```
 
-* MacOS e outras distribuições consulte [https://ffmpeg.org/download.html].
+* MacOS, Windows SubSystem for Linux e outras distribuições consulte [https://ffmpeg.org/download.html].
 
 
 ## Arquivos de áudio
@@ -47,6 +47,13 @@ $ for i in *.wav; do ffmpeg -i "$i" -f mp3 "${i%.*}.mp3"; done
 ```
 
 * Se tudo correu bem seus arquivos foram convertidos;
+
+* Removendo os arquivos *.wav (desnecessários):
+
+```sh
+$ rm *.wav
+```
+
 
 # Para saber mais
 
